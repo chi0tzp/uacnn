@@ -2,7 +2,7 @@
 
 Propagation of Gaussian uncertainty through typical CNN building blocks.
 
-![](/home/lab/code/uacnn/inkscape/filtering.svg)
+![](inkscape/filtering.svg)
 
 
 
