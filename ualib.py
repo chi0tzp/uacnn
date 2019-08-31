@@ -73,8 +73,10 @@ class UAAvgPool2d(nn.Module):
             y_mean (torch.Tensor): mean map of size (bs, ch, d, d).
             y_var (torch.Tensor): variance map of size (bs, ch, d, d).
         """
-        y_mean = self.avg_pool(x)
-        y_var = self.avg_pool(x ** 2) - y_mean ** 2
+        x_mean = x[0]
+        x_var = x[1]
+        y_mean = self.avg_pool(x_mean)
+        y_var = (1 / self.kernel_size**2) * self.avg_pool(x_var)
         return [y_mean, y_var]
 
 
