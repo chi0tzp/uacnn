@@ -4,6 +4,19 @@ Propagation of Gaussian uncertainty through typical CNN building blocks.
 
 ![](inkscape/filtering.svg)
 
+Technical report can be found [here](). If you find UA-CNN useful in your research, please consider adding the following citation:
+
+~~~bibtex
+@misc{uacnn,
+      author = {Christos, Tzelepis and Ioannis, Patras},
+      title = {{UA-CNN}: Uncertainty Propagation in Convolutional NeuralNetworks},
+      year = {2020},
+      publisher = {GitHub},
+      journal = {GitHub repository},
+      howpublished = {\url{https://github.com/chi0tzp/uacnn}},
+}
+~~~
+
 
 
 - **UAConv2d**: Uncertainty-aware 2D convolution
