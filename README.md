@@ -18,5 +18,10 @@ Propagation of Gaussian uncertainty through typical CNN building blocks.
 
   ![](inkscape/uafc.svg)
 
-- **UAReLU**: Uncertainty-aware rectified linear unit
+- **UAReLU**: Uncertainty-aware rectified linear unit for various amounts of input uncertainty
 
+  ![](inkscape/uarelu_mean_var_plot.svg)
+
+- Expected BCE loss (**UABCELoss**) for various amounts of input uncertainty (dashed red lines) compared to standard BCE loss
+
+  ![](inkscape/uabce_mean.svg)
