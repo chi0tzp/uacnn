@@ -4,7 +4,7 @@ Propagation of Gaussian uncertainty through typical CNN building blocks.
 
 ![](inkscape/filtering.svg)
 
-Technical report can be found [here](). If you find UA-CNN useful in your research, please consider adding the following citation:
+Technical report can be found [here](https://arxiv.org/abs/2102.06064). If you find UA-CNN useful in your research, please consider adding the following citation:
 
 ~~~bibtex
 @misc{uacnn,
